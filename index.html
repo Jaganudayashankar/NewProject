@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electronics & Home Appliances Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>ShopNow</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#electronics">Electronics</a></li>
+                <li><a href="#home-appliances">Home Appliances</a></li>
+                <li><a href="#fans">Fans</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to ShopNow!</h1>
+        <p>Your one-stop shop for all electronics, home appliances, and fans!</p>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="electronics" class="product-showcase">
+        <h2>Electronics</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="electronics1.jpg" alt="Smartphone">
+                <p>Smartphone</p>
+                <span>$699</span>
+            </div>
+            <div class="product">
+                <img src="electronics2.jpg" alt="Laptop">
+                <p>Laptop</p>
+                <span>$899</span>
+            </div>
+            <div class="product">
+                <img src="electronics3.jpg" alt="Headphones">
+                <p>Headphones</p>
+                <span>$199</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="home-appliances" class="product-showcase">
+        <h2>Home Appliances</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="appliance1.jpg" alt="Washing Machine">
+                <p>Washing Machine</p>
+                <span>$499</span>
+            </div>
+            <div class="product">
+                <img src="appliance2.jpg" alt="Refrigerator">
+                <p>Refrigerator</p>
+                <span>$899</span>
+            </div>
+            <div class="product">
+                <img src="appliance3.jpg" alt="Microwave">
+                <p>Microwave</p>
+                <span>$149</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="fans" class="product-showcase">
+        <h2>Fans</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="fan1.jpg" alt="Ceiling Fan">
+                <p>Ceiling Fan</p>
+                <span>$89</span>
+            </div>
+            <div class="product">
+                <img src="fan2.jpg" alt="Table Fan">
+                <p>Table Fan</p>
+                <span>$49</span>
+            </div>
+            <div class="product">
+                <img src="fan3.jpg" alt="Tower Fan">
+                <p>Tower Fan</p>
+                <span>$129</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ShopNow. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
